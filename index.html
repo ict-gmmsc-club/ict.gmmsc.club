@@ -47,10 +47,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<hr>
+				<!--<hr>
 				<h3><span class="bold">GMMSC ICT CLUB</h3>
-				<h1 class="heading">Time to be Dynamic</h1>
+				<h1 class="heading">Time to be Dynamic</h1> -->
+				<div class="content">
+				<img class="tilt" src="images/logobg.jpg" alt="">	
 				<a href="https://www.facebook.com/club.ict.gmmsc" target='_blank' class="smoothScroll btn btn-default">Join Us</a>
+			</div>
 			</div>
 		</div>
 	</div>		
@@ -81,26 +84,26 @@
 			</div>
 			<hr>
 			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-				<img src="images/about-img.png" class="img-responsive" alt="about img">
+				<img src="images/depts.jpg" class="img-responsive tilt" alt="about img">
 			</div>
 			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
 				<h3>Our Departments</h3>
 				<p>In our club, you join a department of your choice to improve your skillset on that specific field.</p>
 				<span><i class="fa fa-code"></i>Programming</span>
 					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+						<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
 					</div>
 				<span><i class="fa fa-pencil"></i>Content Creation</span>
 					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+						<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
 					</div>
 				<span><i class="fa fa-cloud"></i>IT</span>
 					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+						<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
 					</div>
 				<span><i class="fa fa-gamepad"></i>Gaming</span>
 					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+						<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 92%;"></div>
 					</div>
 			</div>
 		</div>
@@ -119,7 +122,7 @@
 					<ul class="filter-wrapper clearfix">
                    		 <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
                    		 <li><a href="#" class="opc-main-bg" data-filter=".work">Workshops</a></li>
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".ack">Acknowledgement</a></li>
+                   		 <li><a href="#" class="opc-main-bg" data-filter=".ack">Triumphs</a></li>
                     	 <li><a href="#" class="opc-main-bg" data-filter=".gen">Generic</a></li>
                		</ul>
                		<div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
@@ -273,6 +276,16 @@
 <script src="js/nivo-lightbox.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/vanila-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".tilt"), {
+		max: 35,
+		speed: 400,
+		glare: true,
+		"max-glare": 1,
+	});
+	
+</script>
 
 </body>
 </html>
