@@ -1,3 +1,7 @@
+/*Polapan ei file edit korba- */
+
+
+
 body
 {
 	background: #222831;
@@ -283,12 +287,26 @@ p {
   text-align: center;
 }
 #team h3 {
-  color: #202020;
+  color: #EEEEEE;
   line-height: 4px;
 }
 #team .team-des {
   padding-top: 20px;
   padding-bottom: 40px;
+}
+
+#team .team-des p{
+  margin-top: 15px;
+}
+#team .team-wrapper img{
+  border: 1.5px solid #222831;
+  border-radius: 14px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+#team .team-wrapper img:hover{
+  filter: grayscale(0%);
 }
 
 /* contact section */
@@ -414,9 +432,7 @@ footer {
   .custom-navbar .navbar-brand {
     font-size: 24px;
   }
-  #about img {
-    padding-top: 40px;
-  }
+
   #contact form {
     padding-top: 30px;
   }
