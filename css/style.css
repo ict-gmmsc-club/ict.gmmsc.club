@@ -349,7 +349,10 @@ p {
 
 /* footer section */
 footer {
-  background-color: #000000;
+  background: url('../images/footer.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
   text-align: center;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -357,9 +360,14 @@ footer {
 
 footer img.club-partner {
   height:100px;
+  border-radius: 14px;
   width: auto;
   object-fit: contain;
   filter: grayscale(100%);
+}
+
+footer img.club-partner-big_{
+  height:150px;
 }
 
 footer img.club-partner:hover{
@@ -425,12 +433,13 @@ footer img.club-partner:hover{
     max-width: 50%;
   }
 
-  footer .col-md-4 .col-sm-4 img{
-	 padding:1rem 0 1rem 0;
-}
-  footer img.club-partner{
-  	filter: grayscale(0%);
-}
+  #team .team-wrapper img{
+    filter: grayscale(0%);
+  }
+
+  footer {
+    display: none;
+  }
 
 }
 
